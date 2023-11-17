@@ -196,12 +196,7 @@ footer{
 
 /* PROJECT SECTION  */
 
-section a{
-    /* background-color: red;
-    border-radius: 8px;
-    text-align: center;
-    margin: 5px; */
-}
+ 
 
 .project-img{
     text-align: center;
@@ -245,15 +240,8 @@ figure:hover{
     /* width:100%; */
 }
 
-.download-image{
-    /* width: 20%; */
-    
-}
-
-.donw-image-link{
-    /* padding-left: 0;
-    margin-left: 0; */
-}
+ 
+ 
 
 
 @media screen and(max-width:520px) {
