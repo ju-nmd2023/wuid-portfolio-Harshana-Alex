@@ -3,8 +3,52 @@ body{
     background-color: #e0eaf5;
 }
 
+/* HEADER SECTION  */
+
+header{
+    padding-left: 60px;
+    display: flex;
+    align-items:  center;
+}
+ 
+nav ul{
+    display:flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 3rem;
+}
+
+nav a{
+    color: black;
+}
+
+#logo{
+font-weight: 600;
+font-size: 1.5rem;
+/* border: 2px solid #06438c ; */
+display: inline;
+
+}
+
+#logo-image{
+    height: 60px;
+}
+
+/* FOOTER */
+footer{
+    border-top: 1px solid black;
+    margin-top: 3rem;
+}
+
+/* MAIN BODY */
+
 .container{
-    padding: 60px;
+    /* padding: 60px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
 }
 .container2{
     padding-left: 30px;
@@ -53,6 +97,14 @@ body{
     color:#06438c ;
     font-size: 20px;
     line-height: 1.5em;
+     
+}
+
+.summary_content_small{
+    color:#06438c ;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 300;
      
 }
 
@@ -140,4 +192,82 @@ body{
 .item3{
     width: 320px;    
     border-radius: 5px;
+}
+
+/* PROJECT SECTION  */
+
+section a{
+    /* background-color: red;
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px; */
+}
+
+.project-img{
+    text-align: center;
+}
+
+.project-container a {
+    text-decoration: none;
+}
+
+figcaption{
+  color: #4d4d4d;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-decoration: none;
+  text-align: center
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr  );
+}
+
+figure{
+    margin-left: 0;
+    text-decoration: none;
+    background-color: white; 
+    border-radius: 8px;
+    padding: 3px
+}
+
+
+figure:hover{
+    background-color:#9dc7fb; 
+    border-radius: 20px;
+    transition: 1s;
+    scale: 1.05;
+}
+
+.project-img img{
+    border-radius: 150px;
+    /* width:100%; */
+}
+
+.download-image{
+    /* width: 20%; */
+    
+}
+
+.donw-image-link{
+    /* padding-left: 0;
+    margin-left: 0; */
+}
+
+
+@media screen and(max-width:520px) {
+    header, ul{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    ul{
+        margin-top: 0;
+    }
+
+    li{
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
 }
