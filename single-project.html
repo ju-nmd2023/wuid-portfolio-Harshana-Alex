@@ -6,6 +6,7 @@
     <title>Project Details</title>
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
     <link rel="stylesheet" href="css/style2.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -20,9 +21,9 @@
           </a>
         </p>
         <ul>
-          <a href="index.html"> <li>Home</li> </a>
-          <a href="projects.html"> <li>My Projects</li> </a>
-          <a href="contact.html"> <li>Contact Me</li> </a>
+          <a class="menu-item" href="index.html"> <li>Home</li> </a>
+          <a class="menu-item" href="projects.html"> <li>My Projects</li> </a>
+          <a class="menu-item" href="contact.html"> <li>Contact Me</li> </a>
         </ul>
       </nav>
     </header>
@@ -77,6 +78,7 @@
         <p>Downloads : <strong>5K</strong></p>
 
         <a
+          id="play-store-button"
           class="donw-image-link"
           href="https://play.google.com/store/apps/details?id=com.novatechzone.ftm2&hl=en&gl=US"
           target="_blanck"
@@ -86,11 +88,57 @@
             src="images/down.png"
             alt="Download the app"
           />
+          <br />
         </a>
+
+        <a href="contact.html" id="sendButton">Contact Us</a>
       </section>
     </main>
     <footer>
       <p>© 2023 Harshana Gamage</p>
+
+      <div class="social-content">
+        <table>
+          <tr>
+            <td>
+              <a
+                href="https://www.facebook.com/HarshanaGamageDotCom"
+                target="_blank"
+              >
+                <img class="social_icons" src="images/fb.png" alt="facebook" />
+              </a>
+            </td>
+
+            <td>
+              <a
+                href="https://www.instagram.com/harshanagamage_/"
+                target="_blank"
+              >
+                <img class="social_icons" src="images/insta.png" alt="insta" />
+              </a>
+            </td>
+
+            <td>
+              <a
+                href="https://www.linkedin.com/in/harshana-gamage/"
+                target="_blank"
+              >
+                <img
+                  class="social_icons"
+                  src="images/linked.png"
+                  alt="linkedin"
+                />
+              </a>
+            </td>
+
+            <td>
+              <a href="https://twitter.com/HarshanaGamage_" target="_blank">
+                <img class="social_icons" src="images/twi.png" alt="x" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
     </footer>
   </body>
 </html>

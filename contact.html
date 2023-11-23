@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -42,18 +43,33 @@
       <br />
 
       <div class="contact-container">
-        <input class="item" type="text" placeholder="enter your name" />
-        <input class="item" type="text" placeholder="mobile number" />
-        <input class="item" type="text" placeholder="email address" />
+        <input
+          id="txtName"
+          class="item"
+          type="text"
+          placeholder="enter your name"
+        />
+        <input
+          id="txtMobile"
+          class="item"
+          type="text"
+          placeholder="mobile number"
+        />
+        <input
+          id="txtEmail"
+          class="item"
+          type="text"
+          placeholder="email address"
+        />
         <textarea
           name=""
           class="item2"
-          id=""
+          id="txtMessage"
           cols="30"
           rows="5"
           placeholder="type your message here..."
         ></textarea>
-        <input class="item" type="button" value="Send" />
+        <input id="sendButton" class="item" type="button" value="Send" />
       </div>
 
       <br />
